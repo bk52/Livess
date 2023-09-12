@@ -1,0 +1,31 @@
+.container {
+  @apply w-full flex flex-col text-text-secondary font-rajdhani text-p gap-1;
+}
+
+.row {
+  @apply w-full flex flex-row;
+}
+
+.row .center {
+  @apply items-center;
+}
+
+.title {
+  @apply flex-1;
+}
+
+.checkbox {
+  @apply w-4 h-4;
+}
+
+.buttonContainer {
+  @apply w-full h-[40px] flex flex-row gap-1 items-center;
+}
+
+.button {
+  @apply w-full h-full py-2 bg-color-ct-table text-text-primary text-h6 font-rajdhani;
+}
+
+.button.active {
+  @apply bg-color-info;
+}

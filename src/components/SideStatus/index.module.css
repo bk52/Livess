@@ -1,0 +1,87 @@
+.containerCt {
+  @apply absolute left-0 top-1/2 -translate-y-1/2 flex flex-col;
+}
+
+.containerT {
+  @apply absolute right-0 top-1/2 -translate-y-1/2 flex flex-col;
+}
+
+.itemCt {
+  @apply flex flex-row w-[300px] bg-color-ct-table select-none;
+}
+
+.itemT {
+  @apply flex flex-row-reverse w-[300px] bg-color-t-table select-none;
+}
+
+.playerContainer {
+  @apply flex flex-col w-[80px];
+}
+
+.playerContainer > img {
+  @apply h-[64px] object-contain;
+}
+
+.imgDeath {
+  @apply grayscale brightness-50;
+}
+
+.playerContainer > .title {
+  @apply w-full text-h6 text-text-primary font-rajdhani text-center;
+}
+
+.playerContainer > .title.ct {
+  @apply bg-color-counter-terrorist;
+}
+
+.playerContainer > .title.t {
+  @apply bg-color-terrorist;
+}
+
+.statsContainer {
+  @apply w-[120px] justify-around flex flex-col font-rajdhani text-p;
+}
+
+.row {
+  @apply flex flex-row;
+}
+
+.statsItem {
+  @apply flex flex-col flex-1 text-text-secondary items-center;
+}
+
+.statsItem.kills {
+  @apply text-color-success;
+}
+
+.statsItem.deaths {
+  @apply text-color-danger;
+}
+
+.statsItem.assists {
+  @apply text-color-info;
+}
+
+.weaponContainer {
+  @apply flex flex-col flex-1 items-center justify-center px-2 gap-4;
+}
+
+.weaponRow {
+  @apply h-[24px];
+}
+
+.weaponImg {
+  @apply h-full object-contain;
+}
+
+.weaponImg.t {
+  @apply -scale-x-100;
+}
+
+.weaponImg .active {
+  @apply brightness-200 saturate-200;
+}
+
+.matchInfoContainer {
+  @apply absolute bottom-0 left-1/2 -translate-x-1/2;
+}

@@ -1,0 +1,22 @@
+.container {
+  @apply w-full h-full bg-color-primary flex flex-col px-4 py-4 gap-4 overflow-y-auto;
+}
+
+.container::-webkit-scrollbar {
+  @apply w-2;
+}
+
+/* Track */
+.container::-webkit-scrollbar-track {
+  @apply bg-color-primary;
+}
+
+/* Handle */
+.container::-webkit-scrollbar-thumb {
+  @apply bg-color-secondary;
+}
+
+/* Handle on hover */
+.container::-webkit-scrollbar-thumb:hover {
+  @apply bg-color-secondary;
+}

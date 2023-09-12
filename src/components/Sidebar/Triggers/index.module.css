@@ -1,0 +1,119 @@
+.btn {
+  @apply w-full py-2 bg-color-info text-text-primary text-h6 font-rajdhani;
+}
+
+.listContainer {
+  @apply flex flex-col overflow-y-auto gap-2;
+}
+
+.itemContainer {
+  @apply w-full h-[80px] flex flex-row bg-color-ct-table items-center py-1 select-none cursor-pointer;
+}
+
+.actor {
+  @apply flex flex-col flex-1 items-center;
+}
+
+.actor > img {
+  @apply h-[48px] object-contain;
+}
+
+.actor > .name {
+  @apply text-h6 text-text-secondary font-rajdhani;
+}
+
+.target {
+  @apply flex flex-col flex-1 items-center;
+}
+
+.target > .count {
+  @apply h-[48px] leading-[52px] text-text-secondary text-h1 font-rajdhani;
+}
+
+.description {
+  @apply text-text-secondary text-p;
+}
+
+.action {
+  @apply flex flex-col flex-1 items-center;
+}
+
+.action > .icon {
+  @apply h-[48px] text-text-secondary;
+}
+
+.editContainer {
+  @apply w-full flex flex-col gap-4;
+}
+
+.closeRow {
+  @apply flex flex-row justify-end;
+}
+
+.closeRow > button {
+  @apply h-[16px] text-color-danger;
+}
+
+.editTitle {
+  @apply text-h6 text-text-primary flex-1;
+}
+
+.row {
+  @apply flex flex-row;
+}
+
+.radioContainer {
+  @apply flex flex-row text-p text-text-secondary gap-4;
+}
+
+.radio {
+  @apply flex gap-2 select-none;
+}
+
+.selectbox {
+  @apply text-p bg-color-ct-table text-text-secondary px-2 py-2;
+}
+
+.selectbox option {
+  @apply bg-color-primary text-text-primary;
+}
+
+.conditionContainer {
+  @apply w-full flex flex-row gap-1 items-center;
+}
+
+.conditionType {
+  @apply flex-1 text-p text-text-primary text-center;
+}
+
+.conditionInput {
+  @apply flex-1 w-full h-full bg-color-ct-table text-text-primary px-2;
+}
+
+.buttonContainer {
+  @apply w-full flex flex-row gap-1 items-center;
+}
+
+.button {
+  @apply w-full py-2 text-text-primary text-h6 font-rajdhani;
+}
+
+.button.primary {
+  @apply bg-color-info;
+}
+
+.button.danger {
+  @apply bg-color-danger;
+}
+
+.urlContainer {
+  @apply w-full flex flex-row gap-1 items-center;
+}
+
+.urlContainer > p {
+  @apply text-p text-text-primary text-center px-2;
+}
+
+.urlContainer > input {
+  @apply flex-1 w-full h-full bg-color-ct-table text-text-primary px-2;
+}

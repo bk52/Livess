@@ -1,0 +1,19 @@
+.navBar {
+  @apply w-full flex flex-row items-center;
+}
+
+.navBar .backButton {
+  @apply h-[16px] w-[16px] text-text-secondary;
+}
+
+.navBar .buttonContainer {
+  @apply flex-1 flex flex-row gap-6 justify-center mr-[16px];
+}
+
+.navBar .buttonContainer .menuButtons {
+  @apply h-[24px] w-[24px] text-text-secondary;
+}
+
+.navBar .buttonContainer .menuButtons.active {
+  @apply text-color-info;
+}

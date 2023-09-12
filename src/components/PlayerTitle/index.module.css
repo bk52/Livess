@@ -1,0 +1,23 @@
+.container {
+  @apply w-full h-[120px] flex flex-row bg-color-info px-2;
+}
+
+.photo {
+  @apply flex-1 pt-2 flex justify-center;
+}
+
+.photo > img {
+  @apply h-full;
+}
+
+.player {
+  @apply relative flex-1 flex justify-center items-center py-2;
+}
+
+.player > img {
+  @apply h-full object-contain opacity-50;
+}
+
+.playerName {
+  @apply absolute text-h3 text-text-primary;
+}

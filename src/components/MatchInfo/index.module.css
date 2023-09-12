@@ -1,0 +1,43 @@
+.container {
+  @apply relative w-[256px];
+}
+
+.mapBg {
+  @apply w-full h-full absolute opacity-80 object-cover z-10;
+}
+
+.scoreContainer {
+  @apply w-full h-[120px] relative z-20;
+}
+
+.infoContainer {
+  @apply w-full h-full flex flex-row items-center justify-evenly;
+}
+
+.teamInfo {
+  @apply flex flex-col items-center gap-2 text-h6 font-rajdhani;
+}
+
+.teamInfo > img {
+  @apply h-[48px];
+}
+
+.matchInfoContainer {
+  @apply flex flex-col text-center gap-1;
+}
+
+.scoreInfo {
+  @apply text-h2 text-text-primary font-rajdhani;
+}
+
+.durationInfo {
+  @apply text-h6 font-rajdhani text-text-secondary;
+}
+
+.ctTitle {
+  @apply text-color-counter-terrorist;
+}
+
+.tTitle {
+  @apply text-color-terrorist;
+}

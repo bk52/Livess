@@ -1,0 +1,63 @@
+.container {
+  @apply absolute bottom-0 left-0 m-0 p-0 flex flex-row w-full justify-center items-end z-[9999];
+}
+
+.item {
+  @apply w-[80px] flex flex-col select-none;
+}
+
+.playerImg {
+  @apply h-[72px] object-contain;
+}
+
+.playerImg.death {
+  @apply grayscale brightness-50;
+}
+
+.playerName {
+  @apply w-full text-text-primary text-h6 font-rajdhani text-center;
+}
+
+.playerName.ct {
+  @apply bg-color-counter-terrorist;
+}
+
+.playerName.t {
+  @apply bg-color-terrorist;
+}
+
+.statsContainer {
+  @apply w-full flex flex-col bg-color-primary px-0.5 py-1 gap-1 font-rajdhani;
+}
+
+.statsCard {
+  @apply flex flex-col flex-1 text-text-secondary items-center;
+}
+
+.statsIcon {
+  @apply h-[10px];
+}
+
+.statsCount {
+  @apply text-text-primary text-infoCard;
+}
+
+.statsRow {
+  @apply w-full flex flex-row;
+}
+
+.statsWeaponRow {
+  @apply w-full h-[28px] flex flex-row;
+}
+
+.weaponImgContainer {
+  @apply h-full flex-1;
+}
+
+.weaponImg {
+  @apply w-full h-full object-contain;
+}
+
+.weaponImg .active {
+  @apply drop-shadow-[0_2px_2px_rgba(93,121,174,0.7)];
+}

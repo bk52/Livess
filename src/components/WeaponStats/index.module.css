@@ -1,0 +1,31 @@
+.table {
+  @apply w-full border-separate border-spacing-y-1;
+}
+
+.headerRow {
+  @apply bg-color-danger font-rajdhani text-h6 text-text-primary text-center;
+}
+
+.col {
+  @apply px-2 py-2;
+}
+
+.row {
+  @apply bg-color-ct-table text-center;
+}
+
+.imgContainer {
+  @apply w-[84px] px-2 py-2;
+}
+
+.imgContainer > img {
+  @apply w-full h-full object-contain;
+}
+
+.weaponInfo {
+  @apply px-2 py-2 text-h6 text-text-secondary;
+}
+
+.killInfo {
+  @apply px-2 py-2 text-h4 text-text-primary;
+}

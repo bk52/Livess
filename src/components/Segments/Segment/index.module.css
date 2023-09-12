@@ -1,0 +1,23 @@
+.segment {
+  @apply w-[48px] flex flex-col select-none flex-shrink-0 mb-2;
+}
+
+.segmentTeam {
+  @apply w-full h-[24px] flex justify-center items-center;
+}
+
+.segmentTeam.counter {
+  @apply bg-color-ct-table;
+}
+
+.segmentTeam.terrorist {
+  @apply bg-color-t-table;
+}
+
+.segmentNumber {
+  @apply text-p text-text-secondary font-rajdhani w-full text-center;
+}
+
+.segmentNumber.active {
+  @apply text-h6 text-text-primary;
+}

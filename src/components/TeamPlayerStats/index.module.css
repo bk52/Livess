@@ -1,0 +1,45 @@
+.table {
+  @apply w-full;
+}
+
+/* HEADER */
+.table thead {
+  @apply text-text-primary text-p select-none;
+}
+
+.table thead th:first-of-type {
+  @apply text-left px-2;
+}
+
+/* ROWS */
+.table td {
+  @apply text-p text-text-primary text-center px-2 py-1 select-none cursor-pointer;
+}
+
+.counterTerrorists {
+  @apply bg-color-ct-table;
+}
+
+.terrorists {
+  @apply bg-color-t-table;
+}
+
+.table .positive > td {
+  @apply text-color-success;
+}
+
+.table .negative > td {
+  @apply text-color-danger;
+}
+
+.table td {
+  @apply min-w-[40px];
+}
+
+.table td:first-of-type {
+  @apply w-[76px] text-left;
+}
+
+.table td:last-of-type {
+  @apply w-[50px];
+}

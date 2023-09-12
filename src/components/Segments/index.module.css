@@ -1,0 +1,22 @@
+.segmentsContainer {
+  @apply w-full flex flex-row gap-2 overflow-x-auto flex-shrink-0;
+}
+
+.segmentsContainer::-webkit-scrollbar {
+  @apply h-2;
+}
+
+/* Track */
+.segmentsContainer::-webkit-scrollbar-track {
+  @apply bg-color-primary;
+}
+
+/* Handle */
+.segmentsContainer::-webkit-scrollbar-thumb {
+  @apply bg-color-secondary;
+}
+
+/* Handle on hover */
+.segmentsContainer::-webkit-scrollbar-thumb:hover {
+  @apply bg-color-secondary;
+}
